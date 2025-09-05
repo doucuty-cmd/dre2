@@ -2,9 +2,10 @@
 
 Lightweight single-page app prototype to mock Admin, Mentor, and Student flows.
 
-## How to run:
+## How to run
 - Open `index.html` in a browser (double-click).
-- Use the Login screen to pick a role and enter a name.
+- Use the Login screen to pick a role and enter your name. Press Enter or click Login.
+- Your session persists automatically; use Logout to clear.
 
 ## Implemented flows:
 
@@ -35,14 +36,15 @@ Lightweight single-page app prototype to mock Admin, Mentor, and Student flows.
   - 🎖️ **Credits / Token Wallet**
     - View Token Balance → Redeem Session → Select Ticket/Session → Confirm → ✅ Redeemed
 
-## ✨ Design Features:
-- **Cards** for Dashboard (Agenda, Assignments, Challenges, Credits, Announcements)
-- **3 items visible** with "View All" for longer lists
-- **Soft colors, rounded corners, subtle shadows**
-- **Progress/status badges** (Submitted, Pending, Late) in calm accent colors
-- **Confirmation modals** for critical actions (Submit, Redeem, Evaluate)
+## ✨ Design Features
+- Light theme with modern typography (Inter), soft shadows and accessible contrast
+- Buttons, inputs, and focus states refined for usability
+- Cards for Dashboard (Agenda, Assignments, Challenges, Credits, Announcements)
+- 3 items visible with "View All" for longer lists
+- Progress/status badges (Submitted, Pending, Late) with gentle colors
+- Confirmation modals for critical actions (Submit, Redeem, Evaluate)
 
-## Notes:
-- All actions are mocked; no data is persisted.
+## Notes
+- Actions are mocked; data is non-persistent except for login session (localStorage).
 - Routing uses URL hash (e.g., `#/student-dashboard`).
-- Files are not uploaded; counts are shown and success is simulated.
+- File uploads are simulated; counts and confirmations are shown only.
