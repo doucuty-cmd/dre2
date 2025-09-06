@@ -1,0 +1,65 @@
+[
+    {
+      "id": "admin-01",
+      "role": "admin",
+      "email": "admin@example.com",
+      "password": "password",
+      "name": "Admin User"
+    },
+    {
+      "id": "mentor-01",
+      "role": "mentor",
+      "email": "mentor@example.com",
+      "password": "password",
+      "name": "Mentor User",
+      "team": "Team Alpha"
+    },
+    {
+      "id": "student-01",
+      "role": "student",
+      "email": "student@example.com",
+      "password": "password",
+      "name": "Student User",
+      "team": "Team Beta"
+    },
+    {
+      "id": "student-02",
+      "role": "student",
+      "email": "jane@example.com",
+      "password": "password",
+      "name": "Jane",
+      "team": "Team Alpha"
+    },
+    {
+      "id": "student-03",
+      "role": "student",
+      "email": "kong@example.com",
+      "password": "password",
+      "name": "Kong",
+      "team": "Team Alpha"
+    },
+    {
+      "id": "student-04",
+      "role": "student",
+      "email": "mon@example.com",
+      "password": "password",
+      "name": "Mon",
+      "team": "Team Alpha"
+    },
+    {
+      "id": "student-05",
+      "role": "student",
+      "email": "tee@example.com",
+      "password": "password",
+      "name": "Tee",
+      "team": "Team Alpha"
+    },
+    {
+      "id": "student-06",
+      "role": "student",
+      "email": "charlie@example.com",
+      "password": "password",
+      "name": "Charlie",
+      "team": "Team Gamma"
+    }
+  ]
